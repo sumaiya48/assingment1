@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
 }
-
+/* this is nav bar */
 .nav-container{
     
     display: flex;
@@ -15,7 +15,7 @@
 .logo-container{
     display: inline;
     padding: 5px;
-    /* margin-right: 10px; */
+    margin-right: 10px;
     
     
 }
@@ -42,9 +42,11 @@
     margin: 10px 5px 20px;
 
 }
+/* this is banner */
 .banner
 {
     background-image: url(./images/banner/banner3.png);
+    
 }
 .banner-details{
     text-align: right;
@@ -66,7 +68,9 @@
     padding: 15px;
     border: none;
     margin: 20px 0px 250px;
+    border-radius: 4px;
 }
+/* this is 1st part of main section */
 .main-1st{
     display: flex;
     justify-content: space-around;
@@ -93,8 +97,98 @@
     margin-top: 10px;
    list-style-type: square;
 }
+/* this is 2nd part of main section */
 .plan{
     text-align: center;
     font-weight: bolder;
     font-size: 26px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.blogs{
+    display: flex;
+}
+.blog{
+    padding: 20px 120px;
+    text-align: center;
+}
+.blog-name{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.blog-details{
+    text-align: center;
+    display: flex;
+}
+/* This is 3rd part of main section */
+.main-last{
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    background: linear-gradient(to top left, rgb(58, 58, 119));
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-top: 70px;
+    padding-left: 60px;
+
+
+}
+.always{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 30px;
+    
+   
+}
+/* this is footer  */
+.footer{
+   margin-top: 400px;
+   display: flex;
+   color: white;
+   background-color: black;
+}
+.footer-left{
+    padding: 60px 20px 60px 0px;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+.footer-details{
+    margin: 20px 0px;
+    padding: 7px 0px;
+    
+}
+.footer-phone{
+    margin: 15px 0px;
+
+}
+.icons{
+    display: flex;
+    
+}
+.icon{
+    padding: 5px 5px 5px 0px;
+}
+.footer-right{
+    padding: 60px 20px 60px 0px;
+    margin-left: 450px;
+    margin-right: 50px;
+    
+}
+.checkbox{
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px 0px 10px;
+    color: white;
+}
+.button{
+    color: white;
+    background-color: rgb(95, 95, 218);
+    padding: 15px;
+    border-radius: 8px;
 }
